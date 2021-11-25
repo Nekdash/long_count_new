@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1637772942 source:c:\users\darya\desktop\long_count\addons.cpp
+	"long_count.h"
+
+1637778395 c:\users\darya\desktop\long_count\long_count.h
+	<iostream>
+	<string>
+
+1637768279 source:c:\users\darya\desktop\long_count\sum.cpp
+	"long_count.h"
+
+1637778370 source:c:\users\darya\desktop\long_count\setting_functions.cpp
+	"long_count.h"
+
+1637777152 source:c:\users\darya\desktop\long_count\main.cpp
+	<iostream>
+	"long_count.h"
+
+1637779551 source:c:\users\darya\desktop\long_count\mult.cpp
+	"long_count.h"
+
+1637773839 source:c:\users\darya\desktop\long_count\sub.cpp
+	"long_count.h"
+
