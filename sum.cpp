@@ -1,6 +1,7 @@
 #include "long_count.h"
 
 string sum_first(string first, string second){
+    //cout << "SUMMATION " << first << " and " << second<< endl;
     if(itc_len(first) < itc_len(second)){
         string temp = first;
         first = second;

@@ -6,9 +6,14 @@ int main()
 {
 
     string expression = "", answer, ans, first, second, operation;
-    cout << "Enter the expression : <first number>< + or - or * or / ><second number>" << endl;
+
     while(true){
+    cout << "Enter the expression : <first number> < + or - or * or / > <second number>" << endl;
     getline(cin, expression);
+    //cin >> first;
+    //cin >> operation;
+    //cin >> second;
+
     ///  raise the error if letters
      if (valid(expression)){
         /// divide to numbers and identify operator
@@ -21,7 +26,8 @@ int main()
         /// identify signs of numbers -> call the function
         answer = baron(first, second, operation);
         /// print out the answer;
-        cout << "ANSWER: " << rm_zeros(answer) << endl;
+        cout << "ANSWER: " << answer << endl;
+        //cout << " 00 + 00 " << summation( "00" , "00") << endl;
 
      }else{
         cout << "!!! INVALID EXPRESSION !!!" << endl;

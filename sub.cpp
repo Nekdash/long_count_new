@@ -21,6 +21,7 @@ string odin(string first){
 
 
 string sub(string first, string second){
+    //cout << "SUBTRACTION "<< first << " and " << second << endl;
     string sign = "0";
     if(!bigger(first, second)){
         string temp = first;

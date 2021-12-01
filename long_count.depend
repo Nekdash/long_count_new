@@ -29,22 +29,22 @@
 	<iostream>
 	<string>
 
-1637846872 source:c:\users\darya\documents\github\wasp\long_count_new\mult.cpp
+1638367007 source:c:\users\darya\documents\github\wasp\long_count_new\mult.cpp
 	"long_count.h"
 
-1637846872 source:c:\users\darya\documents\github\wasp\long_count_new\sub.cpp
+1638367241 source:c:\users\darya\documents\github\wasp\long_count_new\sub.cpp
 	"long_count.h"
 
-1637846872 source:c:\users\darya\documents\github\wasp\long_count_new\sum.cpp
+1638367241 source:c:\users\darya\documents\github\wasp\long_count_new\sum.cpp
 	"long_count.h"
 
 1637850920 source:c:\users\darya\documents\github\wasp\long_count_new\baron.cpp
 	"long_count.h"
 
-1637850518 source:c:\users\darya\documents\github\wasp\long_count_new\setting_functions.cpp
+1638367961 source:c:\users\darya\documents\github\wasp\long_count_new\setting_functions.cpp
 	"long_count.h"
 
-1637850920 source:c:\users\darya\documents\github\wasp\long_count_new\main.cpp
+1638367686 source:c:\users\darya\documents\github\wasp\long_count_new\main.cpp
 	<iostream>
 	"long_count.h"
 

@@ -20,6 +20,7 @@ string mult_one(string first, char n){
 
 
 string mult(string first, string second){
+    //cout << "MULTIPLICATION OF: " << first << " and " << second << endl;
     //first = rm_zeros(first);
     //second = rm_zeros(second);
     if(!bigger(first, second)){

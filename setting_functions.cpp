@@ -39,6 +39,7 @@ string first_num(string expression){
         }
         if( expression[i] == '('){
             cout << " char ( detected " << endl;
+            i++;
             while(expression[i] != ')'){
                 if(expression[i] != ' '){
                     first += expression[i];
@@ -59,7 +60,14 @@ string second_num(string expression){
     for (long long i =0; expression[i] != '\0'; i++){
     if (expression[i]  == '+' || expression[i] == '-' || expression[i] == '*' || expression[i] == '/' ){
         second = first_num(itc_slice_str(expression, i + 1, itc_len(expression)));
-    }}
+    }
+    if(expression[i] == '('){
+
+            while(expression[i] != ')'){
+                i++;
+            }
+        }
+    }
     return second;
 
 }
@@ -75,6 +83,7 @@ string operation_id(string expression){
             return res;
         }
         if(expression[i] == '('){
+
             while(expression[i] != ')'){
                 i++;
             }
