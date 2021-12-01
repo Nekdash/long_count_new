@@ -22,3 +22,29 @@
 1637773839 source:c:\users\darya\desktop\long_count\sub.cpp
 	"long_count.h"
 
+1637846872 source:c:\users\darya\documents\github\wasp\long_count_new\addons.cpp
+	"long_count.h"
+
+1637848785 c:\users\darya\documents\github\wasp\long_count_new\long_count.h
+	<iostream>
+	<string>
+
+1637846872 source:c:\users\darya\documents\github\wasp\long_count_new\mult.cpp
+	"long_count.h"
+
+1637846872 source:c:\users\darya\documents\github\wasp\long_count_new\sub.cpp
+	"long_count.h"
+
+1637846872 source:c:\users\darya\documents\github\wasp\long_count_new\sum.cpp
+	"long_count.h"
+
+1637850920 source:c:\users\darya\documents\github\wasp\long_count_new\baron.cpp
+	"long_count.h"
+
+1637850518 source:c:\users\darya\documents\github\wasp\long_count_new\setting_functions.cpp
+	"long_count.h"
+
+1637850920 source:c:\users\darya\documents\github\wasp\long_count_new\main.cpp
+	<iostream>
+	"long_count.h"
+

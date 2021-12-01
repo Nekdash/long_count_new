@@ -25,6 +25,7 @@ bool valid (string expression){
 
 
 string first_num(string expression){
+
     string first = "";
     long long i = 0;
     while( expression[i] != '\0'){
@@ -34,9 +35,10 @@ string first_num(string expression){
         }
         if (expression[i] <= '9' && expression[i] >= '0' && expression[i] != ' '){
             first += expression[i];
-            i++;
+
         }
         if( expression[i] == '('){
+            cout << " char ( detected " << endl;
             while(expression[i] != ')'){
                 if(expression[i] != ' '){
                     first += expression[i];
@@ -45,16 +47,17 @@ string first_num(string expression){
             }
             break;
         }
+        i++;
     }
     return first;
 
 }
 
 string second_num(string expression){
+
     string second = "";
     for (long long i =0; expression[i] != '\0'; i++){
     if (expression[i]  == '+' || expression[i] == '-' || expression[i] == '*' || expression[i] == '/' ){
-
         second = first_num(itc_slice_str(expression, i + 1, itc_len(expression)));
     }}
     return second;
@@ -62,18 +65,21 @@ string second_num(string expression){
 }
 
 string operation_id(string expression){
+
     string res = "";
     long long i = 0;
     while(expression[i] != '\0'){
         if (expression[i]  == '+' || expression[i] == '-' || expression[i] == '*' || expression[i] == '/'){
             res += expression[i];
+
             return res;
         }
         if(expression[i] == '('){
-            while(expresion[i] != ')'){
+            while(expression[i] != ')'){
                 i++;
             }
         }
+        i++;
     }
 }
 
@@ -92,20 +98,11 @@ string rm_zeros(string num){
 
 
 string baron(string first, string second, string operation){
-    string answer ="";
-   if(operation == "+"){
-        if(first[0] == '-' && second[0] == '-'){
-            first = itc_slice_str(first, 1 , itc_len(first) - 1);
-            second = itc_slice(second, 1, itc_len(second) - 1);
-            answer = "-" + sum_first(first, second);
-        }else if (first[0]=='-'){
-            first = itc_slice_str(first, 1 , itc_len(first) - 1);
-            answer = sub(second, first);
-        }else if(second[0] == '-'){
-            second = itc_slice_str(second, 1, itc_len(second) -1);
-            answer = sub(first, second);
-        }
-   }
+    string answer ="SOMETHING WENT WRONG!!!";
+   if(operation == "+")answer = summation(first, second);
+   if(operation == "-")answer = subtraction(first, second);
+   if(operation == "*")answer = multiplication(first, second);
+   return answer;
 
 }
 
